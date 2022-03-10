@@ -1,0 +1,19 @@
+{
+  "name": "calculo-app",
+  "version": "1.0.0",
+  "description": "Aplicativo para decorar a tabuada",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LuisGVNeves/Calculo.git"
+  },
+  "author": "Luis Guilherme Vieira Neves",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LuisGVNeves/Calculo/issues"
+  },
+  "homepage": "https://github.com/LuisGVNeves/Calculo#readme"
+}

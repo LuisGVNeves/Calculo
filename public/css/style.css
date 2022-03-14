@@ -67,7 +67,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   height: 10vh;
-  line-height: 50px;
+  line-height: 25px;
 
 }
 
@@ -76,7 +76,6 @@ body {
   cursor: pointer;
 }
 #icon-math{
-  width: 70px;
   margin-top: 10px;
 }
 

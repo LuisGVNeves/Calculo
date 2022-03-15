@@ -168,13 +168,32 @@ header{
 
 /*Botão de mostrar a resposta*/
 
-.btn-fase-1{
-  margin: 0 40px 20px 40px;
+#botoes{
+  width: 100px;
+  padding: 10px;
+  display: flex;
+  align-self: center;
+}
+
+
+.btn-fase-1, .esconder-resposta{
+  margin: 0px 5px 5px 7px;
   padding: 10px;
   border-style: none;
-}
-.btn-fase-1:hover{
-  background-color: rgb(255, 255, 255);
   font-weight: 700;
+
+}
+
+
+.btn-fase-1:hover{
+  background-color: rgb(136, 255, 107);
+  border: 1px solid rgb(2, 190, 43);
+  cursor: pointer;
+} 
+
+.esconder-resposta:hover{
+  background-color: rgb(255, 46, 46);
+  border: 1px solid rgb(241, 0, 0);
   cursor: pointer;
 }
+

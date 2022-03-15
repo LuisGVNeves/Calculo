@@ -8,7 +8,7 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-
+/*Div container*/
 #container {
   display: flex;
   justify-content: center;
@@ -17,6 +17,7 @@ body {
   margin: 20em auto 0px;
 }
 
+/*Divs - Flex items*/
 .box-1, .box-2, .box-3, .box-4 {
   width: 150px;
   height: 100px;
@@ -56,6 +57,12 @@ body {
   border: 1px solid rgb(42, 148, 10);
   cursor: pointer;
   color: #fff;
+}
+
+/*Links das divs*/
+a {
+  text-decoration: none;
+  color: inherit;
 }
 
 

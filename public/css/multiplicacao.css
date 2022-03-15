@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+  box-sizing: border-box;
+  padding: 0%;
+  margin: 0%;
+  font-family: 'Roboto', sans-serif;
+}
+body {
+  height: 200vh;
+  background-color: rgb(49, 248, 99);
+}
+
+header{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  color: #fff;
+}
+#seta{
+  width: 100px;
+  position: absolute;
+  left: 40px;
+  top: 10px;
+}
+
+#flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  height: 160vh;
+  width: 80vw;
+  margin: 100px auto;
+
+}
+
+.divs{
+  height: 380px;
+  flex-basis: 200px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+
+#multiplicacao-1 > span {
+  order: 1;
+  background-color: rgb(121, 255, 88);
+  text-align: center;
+  display: block;
+  line-height: 35px;
+  border: 1px solid greenyellow;
+  cursor: pointer;
+}
+
+
+
+#multiplicacao-2 > span {
+  background-color: rgb(121, 255, 88);
+  order: 2;
+  text-align: center;
+  display: block;
+  line-height: 35px;
+  border: 1px solid greenyellow;
+}
+#multiplicacao-2:hover{
+  cursor: pointer;
+}
+
+
+#multiplicacao-3 > span {
+  background-color: rgb(121, 255, 88);
+  order: 3;
+  text-align: center;
+  display: block;
+  line-height: 35px;
+  border: 1px solid greenyellow;
+  cursor: pointer;
+}
+
+#multiplicacao-4 > span {
+  background-color: rgb(121, 255, 88);
+  order: 4;
+  text-align: center;
+  display: block;
+  line-height: 35px;
+  border: 1px solid greenyellow;
+  cursor: pointer;
+}
+
+#multiplicacao-5 > span {
+  background-color: rgb(121, 255, 88);
+  order: 5;
+  text-align: center;
+  display: block;
+  line-height: 35px;
+  border: 1px solid greenyellow;
+  cursor: pointer;
+}
+
+
+#multiplicacao-6 > span {
+  background-color: rgb(121, 255, 88);
+  order: 6;
+  text-align: center;
+  display: block;
+  line-height: 35px;
+  border: 1px solid greenyellow;
+  cursor: pointer;
+}
+
+
+#multiplicacao-7 > span {
+  background-color: rgb(121, 255, 88);
+  order: 7;
+  text-align: center;
+  display: block;
+  line-height: 35px;
+  border: 1px solid greenyellow;
+  cursor: pointer;
+}
+
+#multiplicacao-8 > span {
+  background-color: rgb(121, 255, 88);
+  order: 7;
+  text-align: center;
+  display: block;
+  line-height: 35px;
+  border: 1px solid greenyellow;
+  cursor: pointer;
+}
+
+
+#multiplicacao-9 > span {
+  background-color: rgb(121, 255, 88);
+  order: 7;
+  text-align: center;
+  display: block;
+  line-height: 35px;
+  border: 1px solid greenyellow;
+  cursor: pointer;
+}
+
+#multiplicacao-10 > span {
+  background-color: rgb(121, 255, 88);
+  order: 7;
+  text-align: center;
+  display: block;
+  line-height: 35px;
+  border: 1px solid greenyellow;
+  cursor: pointer;
+}
+
+.transparencia{
+  filter: blur(10px);
+}
+
+/*Resultado da conta*/
+.resultado {
+  /*
+    - uma tag <span> está dentro de outra tag <span>, então para ficar o conteúdo
+    na mesma linha, eu utilizo o float com inline-start pra ficar na posição original.
+  */
+  float: inline-start;
+}
+
+
+/*Botão de mostrar a resposta*/
+
+.btn-fase-1{
+  margin: 0 40px 20px 40px;
+  padding: 10px;
+  border-style: none;
+}
+.btn-fase-1:hover{
+  background-color: rgb(255, 255, 255);
+  font-weight: 700;
+  cursor: pointer;
+}

@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
 
 body {
   padding: 0%;
   margin: 0%;
   background-color: rgb(42, 170, 42);
   height: 110vh;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 /*Div container*/
@@ -18,7 +18,10 @@ body {
 }
 
 /*Divs - Flex items*/
-.box-1, .box-2, .box-3, .box-4 {
+.box-1,
+.box-2,
+.box-3,
+.box-4 {
   width: 150px;
   height: 100px;
   margin-top: 8em;
@@ -31,7 +34,6 @@ body {
   letter-spacing: 1px;
   background-color: rgb(47, 255, 75);
 }
-
 
 .box-1:hover {
   background-color: rgb(132, 248, 15);
@@ -65,9 +67,8 @@ a {
   color: inherit;
 }
 
-
 /*header*/
-#container-head{
+#container-head {
   display: flex;
   justify-content: center;
   color: #fff;
@@ -75,26 +76,28 @@ a {
   margin-right: auto;
   height: 10vh;
   line-height: 25px;
-
 }
 
 #container-head h1:hover {
   color: rgb(74, 255, 74);
   cursor: pointer;
 }
-#icon-math{
+#icon-math {
   margin-top: 10px;
 }
 
-
-
-
 /*Creditos dos icones*/
-#creditos-icons{
+#creditos-icons {
   position: fixed;
   bottom: 0;
   width: 340px;
 }
 #creditos-icons a {
   color: #fff;
+}
+#direitoAutoral {
+  position: fixed;
+  left: 33em;
+  color: rgb(110, 255, 110);
+  font-weight: bold;
 }

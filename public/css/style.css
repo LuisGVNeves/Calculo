@@ -86,7 +86,8 @@ a {
   margin-top: 10px;
 }
 
-#direitoAutoral {
+#direitoAutoral,
+#creditos-icons {
   font-weight: bold;
   color: rgb(255, 255, 255);
   display: inline-block;
@@ -94,4 +95,10 @@ a {
   position: fixed;
   bottom: 0%;
   left: 43%;
+}
+#creditos-icons {
+  left: 1%;
+  display: inline;
+  font-weight: normal;
+  width: 30em;
 }

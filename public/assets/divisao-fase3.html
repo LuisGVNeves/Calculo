@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Multiplicação Fase 3</title>
+  <link rel="stylesheet" href="../css/divisao/divisaofase-3.css">
+  <!--JQUERY-->
+  <script src="../js/jquery.js"></script>
+</head>
+
+
+<body>
+
+
+  <header>
+    <h1>Multiplicação ( Fase 3 - Misto )</h1>
+    <!--Voltar página principal-->
+    <a href="../../index.html">
+      <img src="../img/seta.png" alt="logo-seta" id="seta">
+    </a>
+
+    <p>
+      Após  saber todas as tabuadas de multiplicação na ordem e aleatoriamente, é hora
+      de "misturar" as dez tabuadas.
+    </p>
+
+  </header>
+
+  <section id="flex-container">
+
+
+    <!--Tabuada do 1-->
+    <div id="divisao-1" class="divs">
+
+      <div id="botoes">
+        <button class="btn-fase-1" id="botao-1">Mostrar Resposta</button>
+        <button class="esconder-resposta" id="btn-esconder-1">Esconder Resposta</button>
+      </div>
+
+      <span>12 / 2 = <span class="resultado-2 transparencia">6</span> </span>
+      <span>1 / 9 = <span class="resultado-1 transparencia ">9</span> </span>
+      <span>1 / 1 = <span class="resultado-1 transparencia ">1</span> </span>
+      <span>1 / 7 = <span class="resultado-1 transparencia ">7</span> </span>
+      <span>38 / 4 = <span class="resultado-3 transparencia">7</span> </span>
+      <span>1 / 4 = <span class="resultado-1 transparencia ">4</span> </span>
+      <span>1 / 5 = <span class="resultado-1 transparencia ">5</span> </span>
+      <span>1 / 2 = <span class="resultado-1 transparencia ">2</span> </span>
+      <span>1 / 3 = <span class="resultado-1 transparencia ">3</span> </span>
+      <span>18 / 3 = <span class="resultado-3 transparencia">6</span> </span>
+      <span>1 / 6 = <span class="resultado-1 transparencia ">6</span> </span>
+    </div>
+
+
+    <!-- Tabuada do 2-->
+    <div id="divisao-2" class="divs transparencia">
+
+      <div id="botoes">
+        <button class="btn-fase-1" id="botao-2">Mostrar Resposta</button>
+        <button class="esconder-resposta" id="btn-esconder-2">Esconder Resposta</button>
+      </div>
+
+      <span>18 / 2 = <span class="resultado-2 transparencia">9</span> </span>
+      <span>0 / 2 = <span class="resultado-2 transparencia">0</span> </span>
+      <span>1 / 0 = <span class="resultado-1 transparencia ">0</span> </span>
+      <span>8 / 2 = <span class="resultado-2 transparencia">4</span> </span>
+      <span>10 / 2 = <span class="resultado-2 transparencia">5</span> </span>
+      <span>27 / 3 = <span class="resultado-3 transparencia">9</span> </span>
+      <span>14 / 2 = <span class="resultado-2 transparencia">7</span> </span>
+      <span>64 / 8 = <span class="resultado-8 transparencia">8</span> </span>
+      <span>40 / 8 = <span class="resultado-8 transparencia">5</span> </span>
+      <span>48 / 8 = <span class="resultado-8 transparencia">6</span> </span>
+      <span>56 / 8 = <span class="resultado-8 transparencia">7</span> </span>
+
+
+    </div>
+
+
+    <!-- Tabuada do 3-->
+    <div id="divisao-3" class="divs transparencia">
+
+      <div id="botoes">
+        <button class="btn-fase-1" id="botao-3">Mostrar Resposta</button>
+        <button class="esconder-resposta" id="btn-esconder-3">Esconder Resposta</button>
+      </div>
+
+      <span>21 / 3 = <span class="resultado-3 transparencia">7</span> </span>
+      <span>24 / 3 = <span class="resultado-3 transparencia">8</span> </span>
+      <span>18 / 6 = <span class="resultado-6 transparencia">3</span> </span>
+      <span>30 / 6 = <span class="resultado-6 transparencia">5</span> </span>
+      <span>54 / 6 = <span class="resultado-6 transparencia">9</span> </span>
+      <span>1 / 10 = <span class="resultado-1 transparencia ">10</span> </span>
+      <span>12 / 3 = <span class="resultado-3 transparencia">4</span> </span>
+      <span>30 / 3 = <span class="resultado-3 transparencia">10</span> </span>
+      <span>15 / 3 = <span class="resultado-3 transparencia">5</span> </span>
+      <span>8 / 4 = <span class="resultado-3 transparencia">2</span> </span>
+      <span>6 / 3 = <span class="resultado-3 transparencia">2</span> </span>
+      <span>9 / 3 = <span class="resultado-3 transparencia">3</span> </span>
+      <span>16 / 2 = <span class="resultado-2 transparencia">8</span> </span>
+
+    </div>
+
+
+    <!-- Tabuada do 4-->
+    <div id="divisao-4" class="divs">
+
+      <div id="botoes">
+        <button class="btn-fase-1" id="botao-4">Mostrar Resposta</button>
+        <button class="esconder-resposta" id="btn-esconder-4">Esconder Resposta</button>
+      </div>
+
+      <span>32 / 4 = <span class="resultado-3 transparencia">8</span> </span>
+      <span>0 / 4 = <span class="resultado-3 transparencia">0</span> </span>
+      <span>16 / 4 = <span class="resultado-3 transparencia">4</span> </span>
+      <span>1 / 8 = <span class="resultado-1 transparencia ">8</span> </span>
+      <span>8 / 4 = <span class="resultado-3 transparencia">2</span> </span>
+      <span>15 / 3 = <span class="resultado-3 transparencia">5</span> </span>
+      <span>20 / 4 = <span class="resultado-3 transparencia">5</span> </span>
+      <span>5 / 5 = <span class="resultado-5 transparencia">1</span> </span>
+      <span>10 / 5 = <span class="resultado-5 transparencia">2</span> </span>
+      <span>50 / 5 = <span class="resultado-5 transparencia">10</span> </span>
+      <span>40 / 4 = <span class="resultado-3 transparencia">10</span> </span>
+      <span>24 / 4 = <span class="resultado-3 transparencia">6</span> </span>
+
+    </div>
+
+
+    <!-- Tabuada do 5-->
+    <div id="divisao-5" class="divs transparencia">
+
+      <div id="botoes">
+        <button class="btn-fase-1" id="botao-5">Mostrar Resposta</button>
+        <button class="esconder-resposta" id="btn-esconder-5">Esconder Resposta</button>
+      </div>
+
+      <span>45 / 5 = <span class="resultado-5 transparencia">9</span> </span>
+      <span>0 / 5 = <span class="resultado-5 transparencia">0</span> </span>
+      <span>20 / 5 = <span class="resultado-5 transparencia">4</span> </span>
+      <span>15 / 5 = <span class="resultado-5 transparencia">3</span> </span>
+      <span>30 / 5 = <span class="resultado-5 transparencia">6</span> </span>
+      <span>4 / 4 = <span class="resultado-3 transparencia">1</span> </span>
+      <span>12 / 4 = <span class="resultado-3 transparencia">3</span> </span>
+      <span>36 / 4 = <span class="resultado-3 transparencia">9</span> </span>
+      <span>35 / 5 = <span class="resultado-5 transparencia">7</span> </span>
+      <span>25 / 5 = <span class="resultado-5 transparencia">5</span> </span>
+      <span>40 / 5 = <span class="resultado-5 transparencia">8</span> </span>
+
+
+    </div>
+
+    <!--Tabuada do 6-->
+    <div id="divisao-6" class="divs transparencia">
+
+      <div id="botoes">
+        <button class="btn-fase-1" id="botao-6">Mostrar Resposta</button>
+        <button class="esconder-resposta" id="btn-esconder-6">Esconder Resposta</button>
+      </div>
+
+      <span>24 / 6 = <span class="resultado-6 transparencia">4</span> </span>
+      <span>0 / 6 = <span class="resultado-6 transparencia">0</span> </span>
+      <span>48 / 6 = <span class="resultado-6 transparencia">8</span> </span>
+      <span>60 / 6 = <span class="resultado-6 transparencia">10</span> </span>
+      <span>0 / 3 = <span class="resultado-3 transparencia">0</span> </span>
+      <span>18 / 3 = <span class="resultado-3 transparencia">6</span> </span>
+      <span>3 / 3 = <span class="resultado-3 transparencia">1</span> </span>
+      <span>63 / 7 = <span class="resultado-7 transparencia">9</span> </span>
+      <span>70 / 7 = <span class="resultado-7 transparencia">10</span> </span>
+      <span>42 / 7 = <span class="resultado-7 transparencia">6</span> </span>
+      <span>56 / 7 = <span class="resultado-7 transparencia">8</span> </span>
+
+    </div>
+
+
+    <!-- Tabuada do 7-->
+    <div id="divisao-7" class="divs transparencia">
+
+      <div id="botoes">
+        <button class="btn-fase-1" id="botao-7">Mostrar Resposta</button>
+        <button class="esconder-resposta" id="btn-esconder-7">Esconder Resposta</button>
+      </div>
+
+
+      <span>54 / 9 = <span class="resultado-9 transparencia">6</span> </span>
+      <span>9 / 9 = <span class="resultado-9 transparencia">1</span> </span>
+      <span>36 / 9 = <span class="resultado-9 transparencia">4</span> </span>
+      <span>90 / 9 = <span class="resultado-9 transparencia">10</span> </span>
+      <span>35 / 7 = <span class="resultado-7 transparencia">5</span> </span>
+      <span>28 / 7 = <span class="resultado-7 transparencia">4</span> </span>
+      <span>0 / 7 = <span class="resultado-7 transparencia">0</span> </span>
+      <span>6 / 6 = <span class="resultado-6 transparencia">1</span> </span>
+      <span>12 / 6 = <span class="resultado-6 transparencia">2</span> </span>
+      <span>42 / 6 = <span class="resultado-6 transparencia">7</span> </span>
+      <span>36 / 6 = <span class="resultado-6 transparencia">6</span> </span>
+
+    </div>
+
+
+    <!--Tabuada do 8-->
+    <div id="divisao-8" class="divs transparencia">
+
+      <div id="botoes">
+        <button class="btn-fase-1" id="botao-8">Mostrar Resposta</button>
+        <button class="esconder-resposta" id="btn-esconder-8">Esconder Resposta</button>
+      </div>
+
+      <span>72 / 8 = <span class="resultado-8 transparencia">9</span> </span>
+      <span>24 / 8 = <span class="resultado-8 transparencia">3</span> </span>
+      <span>32 / 8 = <span class="resultado-8 transparencia">4</span> </span>
+      <span>0 / 8 = <span class="resultado-8 transparencia">0</span> </span>
+      <span>80 / 8 = <span class="resultado-8 transparencia">10</span> </span>
+      <span>8 / 8 = <span class="resultado-8 transparencia">1</span> </span>
+      <span>16 / 8 = <span class="resultado-8 transparencia">2</span> </span>
+      <span>2 / 2 = <span class="resultado-2 transparencia">1</span> </span>
+      <span>4 / 2 = <span class="resultado-2 transparencia">2</span> </span>
+      <span>20 / 2 = <span class="resultado-2 transparencia">10</span> </span>
+      <span>6 / 2 = <span class="resultado-2 transparencia">3</span> </span>
+    </div>
+
+
+    <!--Tabuada do 9 -->
+    <div id="divisao-9" class="divs transparencia">
+
+      <div id="botoes">
+        <button class="btn-fase-1" id="botao-9">Mostrar Resposta</button>
+        <button class="esconder-resposta" id="btn-esconder-9">Esconder Resposta</button>
+      </div>
+
+
+      <span>63 / 9 = <span class="resultado-9 transparencia">7</span> </span>
+      <span>27 / 9 = <span class="resultado-9 transparencia">3</span> </span>
+      <span>9 / 0 = <span class="resultado-9 transparencia">0</span> </span>
+      <span>72 / 9 = <span class="resultado-9 transparencia">8</span> </span>
+      <span>49 / 7 = <span class="resultado-7 transparencia">7</span> </span>
+      <span>21 / 7 = <span class="resultado-7 transparencia">3</span> </span>
+      <span>14 / 7 = <span class="resultado-7 transparencia">2</span> </span>
+      <span>7 / 7 = <span class="resultado-7 transparencia">1</span> </span>
+      <span>18 / 9 = <span class="resultado-9 transparencia">2</span> </span>
+      <span>45 / 9 = <span class="resultado-9 transparencia">5</span> </span>
+      <span>81 / 9 = <span class="resultado-9 transparencia">9</span> </span>
+    </div>
+
+
+
+    <!--Tabuada do 10-->
+    <div id="divisao-10" class="divs transparencia">
+
+      <div id="botoes">
+        <button class="btn-fase-1" id="botao-10">Mostrar Resposta</button>
+        <button class="esconder-resposta" id="btn-esconder-10">Esconder Resposta</button>
+      </div>
+
+
+      <span>80 / 10 = <span class="resultado-10 transparencia">8</span> </span>
+      <span>10 / 0 = <span class="resultado-10 transparencia">0</span> </span>
+      <span>40 / 10 = <span class="resultado-10 transparencia">4</span> </span>
+      <span>50 / 10 = <span class="resultado-10 transparencia">5</span> </span>
+      <span>70 / 10 = <span class="resultado-10 transparencia">7</span> </span>
+      <span>10 / 10 = <span class="resultado-10 transparencia">1</span> </span>
+      <span>90 / 10 = <span class="resultado-10 transparencia">9</span> </span>
+      <span>20 / 10 = <span class="resultado-10 transparencia">2</span> </span>
+      <span>100 / 10 = <span class="resultado-10 transparencia">10</span> </span>
+      <span>30 / 10 = <span class="resultado-10 transparencia">3</span> </span>
+      <span>60 / 10 = <span class="resultado-10 transparencia">6</span> </span>
+    </div>
+
+  </section>
+
+  <script src="../js/divisao/divisao-parte3.js"></script>
+</body>
+
+</html>

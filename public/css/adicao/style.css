@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0%;
+  margin: 0%;
+  font-family: "Roboto", sans-serif;
+}
+body {
+  height: 230vh;
+  width: 100vh;
+  background-color: rgb(11, 32, 16);
+}
+
+header {
+  margin-top: 20px;
+  margin-left: 45%;
+  width: 50em;
+  text-align: center;
+  color: #fff;
+}
+#seta {
+  width: 100px;
+  position: absolute;
+  left: 2%;
+  top: 0;
+}
+
+header p {
+  font-weight: bold;
+  color: rgb(0, 148, 44);
+}
+
+#flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  width: 80vw;
+  height: 80vh;
+  margin-left: 10em;
+}
+
+.divs {
+  margin-left: auto;
+  margin-right: auto;
+  flex-basis: 230px;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 2em;
+}
+
+#adicao-1 > span,
+#adicao-2 > span,
+#adicao-3 > span,
+#adicao-4 > span,
+#adicao-5 > span,
+#adicao-6 > span,
+#adicao-7 > span,
+#adicao-8 > span,
+#adicao-9 > span,
+#adicao-10 > span {
+  background-color: rgb(121, 255, 88);
+  display: block;
+  text-align: center;
+  line-height: 35px;
+  border: 1px solid greenyellow;
+  cursor: pointer;
+}
+
+#adicao-1 > span {
+  order: 1;
+}
+#adicao-2 > span {
+  order: 2;
+}
+#adicao-3 > span {
+  order: 3;
+}
+#adicao-4 > span {
+  order: 4;
+}
+#adicao-5 > span {
+  order: 5;
+}
+#adicao-6 > span {
+  order: 6;
+}
+#adicao-7 > span {
+  order: 7;
+}
+#adicao-8 > span {
+  order: 8;
+}
+#adicao-9 > span {
+  order: 9;
+}
+#adicao-10 > span {
+  order: 10;
+}
+
+.transparencia {
+  filter: blur(10px);
+}
+
+/*Resultado da conta*/
+.resultado {
+  /*
+    - uma tag <span> está dentro de outra tag <span>, então para ficar o conteúdo
+    na mesma linha, eu utilizo o float com inline-start pra ficar na posição original.
+  */
+  float: inline-start;
+}
+
+/*Botão de mostrar a resposta*/
+
+#botoes {
+  width: 100px;
+  padding: 10px;
+  display: flex;
+  align-self: center;
+}
+
+.btn-fase-1,
+.esconder-resposta {
+  margin: 0px 25px 5px 7px;
+  padding: 15px;
+  border-style: none;
+  font-weight: 700;
+}
+
+.btn-fase-1:hover {
+  background-color: rgb(136, 255, 107);
+  border: 1px solid rgb(2, 190, 43);
+  cursor: pointer;
+}
+
+.esconder-resposta:hover {
+  background-color: rgb(255, 46, 46);
+  border: 1px solid rgb(241, 0, 0);
+  cursor: pointer;
+}

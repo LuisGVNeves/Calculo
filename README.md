@@ -1,6 +1,9 @@
 ## Objetivo do site
 > Prover diversas tabuadas de `multiplicação, adição, subtração e divisão`, para que o usuário consiga decorar a tabuada em fases:
 
+
+> Dê uma olhada: https://luisgvneves.github.io/Calculo/
+
 #### Fase 1 (Ordem)
 - Os números da tabuada estão em ordem, devem ser praticados até que o usuário tenha uma base e consiga responder cada tabuada de maneira rápida.
 
